@@ -9,7 +9,7 @@ st.title("`Painel de controle financeiro da Empresa X`")
 # Adicionando conteúdo ao sidebar
 
 #coletar a base de dados
-df = pd.read_csv("C:\\Users\\arthu\\Downloads\\relatorio (4).csv", sep=";")
+df = pd.read_csv("relatorio (4).csv", sep=";")
 #separar a data da hora criando uma nova coluna #criar uma coluna só com os dias
 df['Data']=pd.to_datetime(df['Data'])
 #nova coluna
