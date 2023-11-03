@@ -41,7 +41,7 @@ Periodo = st.sidebar.select_slider("Mês", df["Data"].unique())
 df_filtered = df[df["Data"] == Periodo]
 
 st.sidebar.subheader('Veja se sua ideia vale um bom negócio com a calculadora automática !')
-st.sidebar.markdown("[**Calculadora de bons negócios**](http://192.168.0.168:8501)")
+st.sidebar.markdown("[**Calculadora de bons negócios**](Calculador.py)")
 
 
 #colocar em modo visual (vendas, ranking de categorias (despesas e receitas), indicadores, orçamento x realizado)
